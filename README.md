@@ -57,4 +57,24 @@ void onResult(boolean allGranted, List<String> deniedPermissions);
 
 ---
 
+## EasyBoostBall
+
+一個自定義加速球的view控件
+
+### 使用方法
+
+和使用其他view一樣的方法，透過在xml文件裏面調用它，
+
+並透過設置監聽器來使用它
+
+有兩個方法提供：
+
+1. `setProgressWithAnimation(float)` 帶動畫的
+
+2. `setProgress(float)` 不帶動畫的
+
+傳入的值是最大值，比如傳入1就表示從0到1f，也就是0-100%。推薦取值為[0,1]
+
+---
+
 後續的其餘功能還待開發中...

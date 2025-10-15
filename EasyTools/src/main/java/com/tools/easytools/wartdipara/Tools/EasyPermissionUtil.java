@@ -1,9 +1,8 @@
-package com.tools.easytools.wartdipara.utils;
+package com.tools.easytools.wartdipara.Tools;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import com.tools.easytools.wartdipara.EasyPermission.PermissionInstance;
-import com.tools.easytools.wartdipara.EasyPermission.SupportFragment;
 
 import java.util.List;
 

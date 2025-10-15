@@ -57,4 +57,21 @@ void onResult(boolean allGranted, List<String> deniedPermissions);
 
 ---
 
+## EasyBoostBall
+
+A custom View widget for an acceleration ball
+
+## Usage
+
+Use it just like any other view by calling it in your XML file,  and set a listener to interact with it.
+Two methods are provided:
+
+1. setProgressWithAnimation(float) — with animation
+
+2. setProgress(float) — without animation
+
+The input value is the maximum value. For example, passing in 1 means from 0 to 1f, which is 0-100%. The recommended value range is [0, 1].
+
+---
+
 More to come...
